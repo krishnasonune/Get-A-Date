@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Kaushan+Script&display=swap');
+
+.topnav {
+  background-color: rgba(0,0,0, 0.2);
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 30px;
+  font-family: 'Courgette';
+  color: white;
+}

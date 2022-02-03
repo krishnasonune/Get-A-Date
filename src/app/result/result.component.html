@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Result</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <app-layout></app-layout>
+  <div class="pos" style="top:50%; left:46%;">
+    <mat-spinner *ngIf="showSpinner" color="warn"></mat-spinner>
+  </div>
+  <div class="card">
+    <div class="align">
+      <h2>{{x}}</h2>
+      <h1>{{v}}</h1>
+      <h2>{{ini}}</h2>
+      <h1> {{I}}</h1>
+    </div>
+  </div>
+</body>
+</html>

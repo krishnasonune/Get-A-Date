@@ -1,0 +1,30 @@
+
+<html>
+<head>
+  <title>home</title>
+</head>
+<body>
+  <form #sForm="ngForm" (ngSubmit)="submit(sForm)">
+    <app-layout></app-layout>
+    <div class="card">
+      <div class="align">
+
+        <h1>Calculate</h1>
+
+        <label>Name : </label>
+        <input type="text" name="name" ngModel value="" required placeholder="name" />
+
+        <br />
+
+        <label>Date : </label>
+        <input type="date" name="date" ngModel value="" required placeholder="DOB" />
+
+        <br />
+
+        <button type="submit" [disabled]="!sForm.form.valid">submit</button>
+
+      </div>
+    </div>
+  </form>
+</body>
+</html>
