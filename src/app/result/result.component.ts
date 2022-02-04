@@ -24,7 +24,7 @@ export class ResultComponent implements OnInit {
     setTimeout(() => {
       this.showSpinner = false;
       this.x = 'Good Luck, ' + this.ser.getData();
-      this.v = Math.floor(Math.random() * 100) + ' %';
+      this.v = Math.floor(Math.random() * 100) + '%';
 
       this.ini = 'Initial Of your crush';
       var characters = "ABCDEFGHIJKLMNOPQRSTUVWXTZ";
