@@ -8,15 +8,13 @@ import { LayoutComponent } from './layout/layout.component';
 import { FormsModule } from '@angular/forms';
 import { ServService } from './service/serv.service';
 import { routing } from './approuting';
-import { LoadingComponent } from './loading/loading.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     InputComponent,
     ResultComponent,
-    LayoutComponent,
-    LoadingComponent
+    LayoutComponent
   ],
   imports: [
     BrowserModule,
